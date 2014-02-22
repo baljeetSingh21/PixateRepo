@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9230588C-73DC-4AFD-AD09-6B5F8204DF2E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PixateRepo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>15562F60-1837-4B18-9A36-89D25D0CC29E</key>
+		<string>https://github.com/baljeetSingh21/PixateRepo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PixateRepo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>15562F60-1837-4B18-9A36-89D25D0CC29E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/baljeetSingh21/PixateRepo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>15562F60-1837-4B18-9A36-89D25D0CC29E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>15562F60-1837-4B18-9A36-89D25D0CC29E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PixateRepo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

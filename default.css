@@ -1,0 +1,17 @@
+/* CSS class for View controller Background*/
+.view{
+background-color: #d3d3d3;
+}
+.btn{
+         border-radius   : 5px;
+        font-family     : "Helvetica";
+        font-size       : 13px;
+        font-weight     : bold;
+        color           : #ffffff;
+        background-color: linear-gradient(#3c4145, #585e62);
+        border-width    : 1px;
+        border-color    : #212325;
+        box-shadow      : inset 0 1px 0 rgba(255,255,255,0.3),
+        0 1px 1px rgba(0,0,0,0.5);
+
+}

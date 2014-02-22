@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847403DC18B70F8D00D71D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847403DB18B70F8D00D71D82 /* Foundation.framework */; };
+		847403DE18B70F8D00D71D82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847403DD18B70F8D00D71D82 /* CoreGraphics.framework */; };
+		847403E018B70F8D00D71D82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847403DF18B70F8D00D71D82 /* UIKit.framework */; };
+		847403E618B70F8D00D71D82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 847403E418B70F8D00D71D82 /* InfoPlist.strings */; };
+		847403E818B70F8D00D71D82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847403E718B70F8D00D71D82 /* main.m */; };
+		847403EC18B70F8D00D71D82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847403EB18B70F8D00D71D82 /* AppDelegate.m */; };
+		847403EF18B70F8D00D71D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847403ED18B70F8D00D71D82 /* Main.storyboard */; };
+		847403F218B70F8D00D71D82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847403F118B70F8D00D71D82 /* ViewController.m */; };
+		847403F418B70F8D00D71D82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847403F318B70F8D00D71D82 /* Images.xcassets */; };
+		847403FB18B70F8D00D71D82 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847403FA18B70F8D00D71D82 /* XCTest.framework */; };
+		847403FC18B70F8D00D71D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847403DB18B70F8D00D71D82 /* Foundation.framework */; };
+		847403FD18B70F8D00D71D82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847403DF18B70F8D00D71D82 /* UIKit.framework */; };
+		8474040518B70F8D00D71D82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8474040318B70F8D00D71D82 /* InfoPlist.strings */; };
+		8474040718B70F8D00D71D82 /* PixateRepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8474040618B70F8D00D71D82 /* PixateRepoTests.m */; };
+		8474041118B7217100D71D82 /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8474041018B7217100D71D82 /* PixateFreestyle.framework */; };
+		8474041318B721D900D71D82 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8474041218B721D900D71D82 /* QuartzCore.framework */; };
+		8474041518B721EC00D71D82 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8474041418B721EC00D71D82 /* CoreText.framework */; };
+		8474041918B7251A00D71D82 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 8474041818B7251A00D71D82 /* default.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847403FE18B70F8D00D71D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847403D018B70F8D00D71D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847403D718B70F8D00D71D82;
+			remoteInfo = PixateRepo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847403D818B70F8D00D71D82 /* PixateRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixateRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847403DB18B70F8D00D71D82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		847403DD18B70F8D00D71D82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		847403DF18B70F8D00D71D82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		847403E318B70F8D00D71D82 /* PixateRepo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PixateRepo-Info.plist"; sourceTree = "<group>"; };
+		847403E518B70F8D00D71D82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		847403E718B70F8D00D71D82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847403E918B70F8D00D71D82 /* PixateRepo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PixateRepo-Prefix.pch"; sourceTree = "<group>"; };
+		847403EA18B70F8D00D71D82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		847403EB18B70F8D00D71D82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		847403EE18B70F8D00D71D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847403F018B70F8D00D71D82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		847403F118B70F8D00D71D82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		847403F318B70F8D00D71D82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		847403F918B70F8D00D71D82 /* PixateRepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixateRepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847403FA18B70F8D00D71D82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8474040218B70F8D00D71D82 /* PixateRepoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PixateRepoTests-Info.plist"; sourceTree = "<group>"; };
+		8474040418B70F8D00D71D82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8474040618B70F8D00D71D82 /* PixateRepoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixateRepoTests.m; sourceTree = "<group>"; };
+		8474041018B7217100D71D82 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PixateFreestyle.framework; sourceTree = "<group>"; };
+		8474041218B721D900D71D82 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8474041418B721EC00D71D82 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8474041818B7251A00D71D82 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847403D518B70F8D00D71D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8474041518B721EC00D71D82 /* CoreText.framework in Frameworks */,
+				8474041318B721D900D71D82 /* QuartzCore.framework in Frameworks */,
+				847403DE18B70F8D00D71D82 /* CoreGraphics.framework in Frameworks */,
+				847403E018B70F8D00D71D82 /* UIKit.framework in Frameworks */,
+				847403DC18B70F8D00D71D82 /* Foundation.framework in Frameworks */,
+				8474041118B7217100D71D82 /* PixateFreestyle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847403F618B70F8D00D71D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847403FB18B70F8D00D71D82 /* XCTest.framework in Frameworks */,
+				847403FD18B70F8D00D71D82 /* UIKit.framework in Frameworks */,
+				847403FC18B70F8D00D71D82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847403CF18B70F8D00D71D82 = {
+			isa = PBXGroup;
+			children = (
+				8474041818B7251A00D71D82 /* default.css */,
+				847403E118B70F8D00D71D82 /* PixateRepo */,
+				8474040018B70F8D00D71D82 /* PixateRepoTests */,
+				847403DA18B70F8D00D71D82 /* Frameworks */,
+				847403D918B70F8D00D71D82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847403D918B70F8D00D71D82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847403D818B70F8D00D71D82 /* PixateRepo.app */,
+				847403F918B70F8D00D71D82 /* PixateRepoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847403DA18B70F8D00D71D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8474041418B721EC00D71D82 /* CoreText.framework */,
+				8474041218B721D900D71D82 /* QuartzCore.framework */,
+				8474041018B7217100D71D82 /* PixateFreestyle.framework */,
+				847403DB18B70F8D00D71D82 /* Foundation.framework */,
+				847403DD18B70F8D00D71D82 /* CoreGraphics.framework */,
+				847403DF18B70F8D00D71D82 /* UIKit.framework */,
+				847403FA18B70F8D00D71D82 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847403E118B70F8D00D71D82 /* PixateRepo */ = {
+			isa = PBXGroup;
+			children = (
+				847403EA18B70F8D00D71D82 /* AppDelegate.h */,
+				847403EB18B70F8D00D71D82 /* AppDelegate.m */,
+				847403ED18B70F8D00D71D82 /* Main.storyboard */,
+				847403F018B70F8D00D71D82 /* ViewController.h */,
+				847403F118B70F8D00D71D82 /* ViewController.m */,
+				847403F318B70F8D00D71D82 /* Images.xcassets */,
+				847403E218B70F8D00D71D82 /* Supporting Files */,
+			);
+			path = PixateRepo;
+			sourceTree = "<group>";
+		};
+		847403E218B70F8D00D71D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847403E318B70F8D00D71D82 /* PixateRepo-Info.plist */,
+				847403E418B70F8D00D71D82 /* InfoPlist.strings */,
+				847403E718B70F8D00D71D82 /* main.m */,
+				847403E918B70F8D00D71D82 /* PixateRepo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8474040018B70F8D00D71D82 /* PixateRepoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8474040618B70F8D00D71D82 /* PixateRepoTests.m */,
+				8474040118B70F8D00D71D82 /* Supporting Files */,
+			);
+			path = PixateRepoTests;
+			sourceTree = "<group>";
+		};
+		8474040118B70F8D00D71D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8474040218B70F8D00D71D82 /* PixateRepoTests-Info.plist */,
+				8474040318B70F8D00D71D82 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847403D718B70F8D00D71D82 /* PixateRepo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8474040A18B70F8D00D71D82 /* Build configuration list for PBXNativeTarget "PixateRepo" */;
+			buildPhases = (
+				847403D418B70F8D00D71D82 /* Sources */,
+				847403D518B70F8D00D71D82 /* Frameworks */,
+				847403D618B70F8D00D71D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixateRepo;
+			productName = PixateRepo;
+			productReference = 847403D818B70F8D00D71D82 /* PixateRepo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847403F818B70F8D00D71D82 /* PixateRepoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8474040D18B70F8D00D71D82 /* Build configuration list for PBXNativeTarget "PixateRepoTests" */;
+			buildPhases = (
+				847403F518B70F8D00D71D82 /* Sources */,
+				847403F618B70F8D00D71D82 /* Frameworks */,
+				847403F718B70F8D00D71D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847403FF18B70F8D00D71D82 /* PBXTargetDependency */,
+			);
+			name = PixateRepoTests;
+			productName = PixateRepoTests;
+			productReference = 847403F918B70F8D00D71D82 /* PixateRepoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847403D018B70F8D00D71D82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Mine;
+				TargetAttributes = {
+					847403F818B70F8D00D71D82 = {
+						TestTargetID = 847403D718B70F8D00D71D82;
+					};
+				};
+			};
+			buildConfigurationList = 847403D318B70F8D00D71D82 /* Build configuration list for PBXProject "PixateRepo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847403CF18B70F8D00D71D82;
+			productRefGroup = 847403D918B70F8D00D71D82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847403D718B70F8D00D71D82 /* PixateRepo */,
+				847403F818B70F8D00D71D82 /* PixateRepoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847403D618B70F8D00D71D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847403F418B70F8D00D71D82 /* Images.xcassets in Resources */,
+				847403E618B70F8D00D71D82 /* InfoPlist.strings in Resources */,
+				847403EF18B70F8D00D71D82 /* Main.storyboard in Resources */,
+				8474041918B7251A00D71D82 /* default.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847403F718B70F8D00D71D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8474040518B70F8D00D71D82 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847403D418B70F8D00D71D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847403F218B70F8D00D71D82 /* ViewController.m in Sources */,
+				847403EC18B70F8D00D71D82 /* AppDelegate.m in Sources */,
+				847403E818B70F8D00D71D82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847403F518B70F8D00D71D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8474040718B70F8D00D71D82 /* PixateRepoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847403FF18B70F8D00D71D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847403D718B70F8D00D71D82 /* PixateRepo */;
+			targetProxy = 847403FE18B70F8D00D71D82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847403E418B70F8D00D71D82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847403E518B70F8D00D71D82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		847403ED18B70F8D00D71D82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847403EE18B70F8D00D71D82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8474040318B70F8D00D71D82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8474040418B70F8D00D71D82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8474040818B70F8D00D71D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8474040918B70F8D00D71D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8474040B18B70F8D00D71D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Desktop/PixateRepo,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateRepo/PixateRepo-Prefix.pch";
+				INFOPLIST_FILE = "PixateRepo/PixateRepo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8474040C18B70F8D00D71D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Desktop/PixateRepo,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateRepo/PixateRepo-Prefix.pch";
+				INFOPLIST_FILE = "PixateRepo/PixateRepo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8474040E18B70F8D00D71D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixateRepo.app/PixateRepo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateRepo/PixateRepo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PixateRepoTests/PixateRepoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8474040F18B70F8D00D71D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixateRepo.app/PixateRepo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateRepo/PixateRepo-Prefix.pch";
+				INFOPLIST_FILE = "PixateRepoTests/PixateRepoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847403D318B70F8D00D71D82 /* Build configuration list for PBXProject "PixateRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8474040818B70F8D00D71D82 /* Debug */,
+				8474040918B70F8D00D71D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8474040A18B70F8D00D71D82 /* Build configuration list for PBXNativeTarget "PixateRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8474040B18B70F8D00D71D82 /* Debug */,
+				8474040C18B70F8D00D71D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8474040D18B70F8D00D71D82 /* Build configuration list for PBXNativeTarget "PixateRepoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8474040E18B70F8D00D71D82 /* Debug */,
+				8474040F18B70F8D00D71D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847403D018B70F8D00D71D82 /* Project object */;
+}
